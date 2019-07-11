@@ -47,7 +47,8 @@ body::-webkit-scrollbar {
     width: 1em;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.699);
+  border-radius: 40px;
   outline: 1px solid slategray;
 }
 @media only screen and (min-width: 1200px) {
