@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Roboto;
+}
+nav {
+    background-color: whitesmoke;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul a {
+    background-color: rgb(223, 220, 217);
+    text-decoration: none;
+    padding: 30px 30px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 7px;
+}
+nav ul a:hover {
+    background-color: orange;
+}
+section {
+    padding: 10px;
+}
+@media only screen and (min-width: 1080px) {
+    main {
+        margin: auto 300px;
+    }
+}
