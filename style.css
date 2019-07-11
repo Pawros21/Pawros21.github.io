@@ -36,7 +36,7 @@ section {
 body {
     background-color: rgb(230, 230, 230);
 }
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
     main {
         margin: auto 300px;
         background-color: rgb(230, 230, 230);
