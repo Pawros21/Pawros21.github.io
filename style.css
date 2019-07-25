@@ -41,7 +41,7 @@ body {
     border-radius: 10px;
 }
 .nav-item:hover {
-    background-color: rgba(255, 166, 0, 0.699);
+    background-color: orange;
 }
 body::-webkit-scrollbar {
     width: 1em;
