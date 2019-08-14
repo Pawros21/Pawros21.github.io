@@ -43,6 +43,12 @@ body {
 .nav-item:hover {
     background-color: orange;
 }
+.btn-primary, .btn-primary:link, .btn-primary:visited{
+    background-color: orange !important;
+    border: 1px solid #FF0000 !important;
+    color: #d5d5d5 !important;
+    box-shadow: none!important;
+}
 body::-webkit-scrollbar {
     width: 1em;
 }
