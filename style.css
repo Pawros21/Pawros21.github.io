@@ -1,65 +1,55 @@
+/* Roboto font declaration */
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+/* Page style reset */
 * {
     margin: 0;
     padding: 0;
     color: black;
     font-family: Roboto;
 }
-nav {
-    background-color: whitesmoke;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-nav ul a {
-    background-color: rgb(223, 220, 217);
-    text-decoration: none;
-    padding: 30px 30px;
-    margin: 0px 5px 0px 5px;
-    border-radius: 7px;
-}
-nav ul a:hover {
-    background-color: orange;
+/* Card deck style reset */
+.card-deck {
+    margin: 0;
+    width: 100%;
 }
 section {
     padding: 10px;
 }
-.carousel-inner{
-    width:100%;
-    max-height: 300px !important;
-}
+/* Page background color */
 body {
     background-color: rgb(230, 230, 230);
 }
+/* Navbar items styling */
 .nav-item {
     transition-duration: .5s;
     border-radius: 10px;
 }
+/* Navbar item color on hover */
 .nav-item:hover {
     background-color: orange;
 }
+/* Button styling */
 .btn-primary, .btn-primary:link, .btn-primary:visited{
-    background-color: orange !important;
-    border: 1px solid #FF0000 !important;
-    color: #d5d5d5 !important;
-    box-shadow: none!important;
+    background-color: orange;
+    border: 1px solid #FF0000;
+    color: white;
 }
+/* Scrollbar width */
 body::-webkit-scrollbar {
     width: 1em;
 }
+/* Scrollbar styling */
 body::-webkit-scrollbar-thumb {
   background-color: rgba(255, 166, 0, 0.699);
   border-radius: 40px;
   outline: 1px solid slategray;
 }
+/* Resize main section on bigger screen */
 @media only screen and (min-width: 1200px) {
     main {
         margin: auto 300px;
-        background-color: rgb(230, 230, 230);
     }
 }
