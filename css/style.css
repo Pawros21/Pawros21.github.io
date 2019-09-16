@@ -1,14 +1,9 @@
-/* Roboto font declaration */
-@font-face {
-    font-family: Roboto;
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
-}
 /* Page style reset */
 * {
     margin: 0;
     padding: 0;
     color: black;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 /* Card deck style reset */
 .card-deck {
